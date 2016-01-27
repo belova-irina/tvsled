@@ -1,0 +1,205 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 1100px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header{
+  height: 165px;
+  background-image: url(../img/fon.jpg);
+  position: relative;
+}
+nav{
+  height: 57px;
+  width: 100%;
+ background-color: rgba(0, 0, 0, 0.6)
+;
+  position: absolute;
+  bottom: 0;
+}
+ul{
+  text-align: right;
+}
+li{
+  display: inline-block;
+}
+.logo_img{
+  margin: 15px 0px 15px 145px;
+}
+
+nav a, footer a{
+  color: #fff;
+  margin-left: 8px;
+ 
+}
+.nav_active{
+  color: #009fce;
+}
+.nav{
+  display: inline-block;
+  float: right;
+  margin: 20px 130px 20px 0px;
+}
+
+.variant{
+  height: 50px;
+  background-color: #000;
+  text-align: center;
+  padding-top: 17px;
+}
+.variant a{
+  color: #009fce;
+  margin-left: 70px;
+  font-size: 14px;
+}
+
+.variant a:first-child{
+  margin-left: 0px;
+}
+
+.variant img{
+  vertical-align: middle;
+  height: 38px;
+  width: 38px;
+  padding-right: 10px;
+}
+
+.news_block{
+  float: right;
+  max-width: 270px;
+}
+.nevs{
+  display: inline-block;
+  width: 300px;
+  height: 395px;
+  border: 1px solid #009fce;
+  margin: 17px 10px 0px 117px;
+  padding: 10px 22px;
+  vertical-align: top;
+}
+.one_news{
+  min-height: 85px;
+  font-size: 11px;
+  margin-top: 15px;
+}
+.news_title{
+  font-weight: bold;
+  margin: 7px 0;
+}
+.news_text{
+  color: #009fce;
+  font-weight: bold;
+}
+.tab{
+  float: right;
+}
+h3{
+  display: inline-block;
+  color: #009fce;
+  padding: 0;
+  margin: 0;
+}
+.news_img{
+  border: 1px solid #009fce;
+  float: left;
+  margin-right: 12px;
+  
+}
+.post{
+  margin-top: 42px;
+}
+
+.carousel{
+  width: 570px;
+  height: 392px;
+  display: inline-block;
+  margin-top: 20px;
+  vertical-align: top;
+  
+}
+
+.selection{
+  text-align: center;
+  font-size: 22px;
+  padding: 40px 0;
+  position: relative;
+}
+.kv1{
+  position: absolute;
+  left: 130px;
+  bottom: 152px;
+}
+.kv2{
+  position: absolute;
+  left: 235px;
+  bottom: 112px;
+}
+.kv3{
+  position: absolute;
+  right: 200px;
+  bottom: 173px;
+}
+.selection_btn{
+  display: block;
+  width: 420px;
+  background-color: #009fce;
+  padding: 35px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+footer{
+  height: 183px;
+  background-image: url(../img/fon_footer.jpg);
+}
+
+ .footer_nav{
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 37px;
+
+}
+.name{
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  float: left;
+  margin: 30px 0px 10px 46px;
+}
+
+.vk, .facebook{
+ float: right;
+ margin-top: 7px;
+}
+.vk{
+  margin:6px 87px 0px 15px;
+}
+.footer_contacts{
+  color: #fff;
+  clear: both;
+}
+.phone_mail{
+  float: right;
+}
+.adres, .phone_mail{
+  display: inline-block;
+  margin: 0px 46px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+
+

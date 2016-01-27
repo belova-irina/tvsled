@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tvsled</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Библиотека jQuery (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="js/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+  <nav>
+    <a href="#" class="logo"><img src="img/logo.png" alt="" class="logo_img"></a>
+    <ul class = "nav">
+        <li><a href="#">О нас</a></li>
+        <li><a href="#" class="nav_active">Продукция</a></li>
+        <li><a href="#">Подбор оборудования</a></li>
+        <li><a href="#">Нестандартные решения</a></li>
+        <li><a href="#">Аренда</a></li>
+        <li><a href="#">Контакты</a></li>
+      
+    </ul>
+  </nav>
+  </header>
+
+  <div class="variant">
+    <a href=""><img src="img/ekran.JPG" alt="">Экран</a>
+    <a href=""><img src="img/izekran.JPG" alt="">Изогнутый экран</a>
+    <a href=""><img src="img/stsetka.JPG" alt="">Светодиодная сетка</a>
+    <a href=""><img src="img/stpol.JPG" alt="">Светодиодный пол</a>
+  </div>
+
+  <main>
+    <div class="nevs">
+      <h3>Новости</h3>
+      <img src="img/tab.JPG" alt="" class="tab">
+      <div class="one_news">
+        <img src="http://placehold.it/67x41" alt="" class="news_img">
+        <p class="date">11 декабря 2015 г.</p>
+        <p class="news_title">Новые дисплеи</p>
+        <p class="news_text">Цельное изображение на большом экране</p>
+      </div>
+        <div class="one_news">
+        <img src="http://placehold.it/67x41" alt="" class="news_img">
+        <div class="nevs_block">
+           <p class="date">11 декабря 2015 г.</p>
+        <p class="news_title">Новые дисплеи</p>
+        <p class="news_text">Цельное изображение на большом экране</p>
+        </div>
+      </div>
+        <div class="one_news">
+        <img src="http://placehold.it/67x41" alt="" class="news_img">
+         <div class="nevs_block">
+           <p class="date">11 декабря 2015 г.</p>
+        <p class="news_title">Новые дисплеи</p>
+        <p class="news_text">Цельное изображение на большом экране</p>
+        </div>
+      </div>
+      <div class="one_news">
+      <img src="http://placehold.it/67x41" alt="" class="news_img">
+         <div class="nevs_block">
+           <p class="date">11 декабря 2015 г.</p>
+          <p class="news_title">Новые дисплеи</p>
+          <p class="news_text">Цельное изображение на большом экране</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel">
+      <ul class="bxslider">
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414" /></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+        <li><img src="http://placehold.it/570x414"/></li>
+      </ul>
+    </div>
+    <div class="selection">
+      <a href="#" class="selection_btn">Подбор оборудования</a>
+      <img src="img/big_kv.JPG" alt="" class="kv1">
+      <img src="img/kv2.JPG" alt="" class="kv2">
+      <img src="img/kv_min.JPG" alt="" class="kv3">
+      <p class = "post">Сайт находится в разработке</p>
+    </div>
+  </main>
+
+
+  <footer>
+   <p class="name">«ТВС-ЛЕД»</p>
+    <div class="footer_nav">
+    
+       <ul class = "footer_list">
+   <li><a href="#">О нас</a></li>
+        <li><a href="#" class="nav_active">Продукция</a></li>
+        <li><a href="#">Подбор оборудования</a></li>
+        <li><a href="#">Нестандартные решения</a></li>
+        <li><a href="#">Аренда</a></li>
+        
+    </ul>
+    </div>
+     <a href=""><img src="img/vk.png" alt="" class="vk"></a>
+    <a href=""><img src="img/fb.png" alt="" class="facebook"></a>
+
+    <div class="footer_contacts">
+      <p class="adres">Санкт-Петербург,<br/> ул. Чапыгина, дом 6, литера П,<br/> Бизнес Центр "ТВ Полис" офис №108</p>
+      <p class="phone_mail">тел.:(812) 329-05-82<br/> тел.:(812) 718-67-55<br/>e-mail:gen@tvsle.spb.ru
+      </p>
+    </div>
+  </footer>
+
+
+  <script>
+$(function(){
+      $('.bxslider').bxSlider();
+});
+</script>
+</body>
+</html>
